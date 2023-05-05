@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29C0DA802A0500B500BD1B49 /* iSoccerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DA7F2A0500B500BD1B49 /* iSoccerApp.swift */; };
+		29C0DA822A0500B500BD1B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DA812A0500B500BD1B49 /* ContentView.swift */; };
+		29C0DA842A0500BA00BD1B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C0DA832A0500BA00BD1B49 /* Assets.xcassets */; };
+		29C0DA872A0500BA00BD1B49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C0DA862A0500BA00BD1B49 /* Preview Assets.xcassets */; };
+		29C0DA912A0500BA00BD1B49 /* iSoccerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DA902A0500BA00BD1B49 /* iSoccerTests.swift */; };
+		29C0DA9B2A0500BA00BD1B49 /* iSoccerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DA9A2A0500BA00BD1B49 /* iSoccerUITests.swift */; };
+		29C0DA9D2A0500BA00BD1B49 /* iSoccerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DA9C2A0500BA00BD1B49 /* iSoccerUITestsLaunchTests.swift */; };
+		29C0DAA32A0500BA00BD1B49 /* iSoccer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 29C0DAA22A0500BA00BD1B49 /* iSoccer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		29C0DAA82A0500BA00BD1B49 /* iSoccerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DAA72A0500BA00BD1B49 /* iSoccerApp.swift */; };
+		29C0DAAA2A0500BA00BD1B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DAA92A0500BA00BD1B49 /* ContentView.swift */; };
+		29C0DAAC2A0500BE00BD1B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C0DAAB2A0500BE00BD1B49 /* Assets.xcassets */; };
+		29C0DAAF2A0500BE00BD1B49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C0DAAE2A0500BE00BD1B49 /* Preview Assets.xcassets */; };
+		29C0DAB92A0500BE00BD1B49 /* iSoccer_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DAB82A0500BE00BD1B49 /* iSoccer_Watch_AppTests.swift */; };
+		29C0DAC32A0500BE00BD1B49 /* iSoccer_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DAC22A0500BE00BD1B49 /* iSoccer_Watch_AppUITests.swift */; };
+		29C0DAC52A0500BE00BD1B49 /* iSoccer_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DAC42A0500BE00BD1B49 /* iSoccer_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29C0DA8D2A0500BA00BD1B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29C0DA742A0500B400BD1B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C0DA7B2A0500B500BD1B49;
+			remoteInfo = iSoccer;
+		};
+		29C0DA972A0500BA00BD1B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29C0DA742A0500B400BD1B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C0DA7B2A0500B500BD1B49;
+			remoteInfo = iSoccer;
+		};
+		29C0DAA42A0500BA00BD1B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29C0DA742A0500B400BD1B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C0DAA12A0500BA00BD1B49;
+			remoteInfo = "iSoccer Watch App";
+		};
+		29C0DAB52A0500BE00BD1B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29C0DA742A0500B400BD1B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C0DAA12A0500BA00BD1B49;
+			remoteInfo = "iSoccer Watch App";
+		};
+		29C0DABF2A0500BE00BD1B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29C0DA742A0500B400BD1B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C0DAA12A0500BA00BD1B49;
+			remoteInfo = "iSoccer Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29C0DACB2A0500BE00BD1B49 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				29C0DAA32A0500BA00BD1B49 /* iSoccer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		29C0DA7C2A0500B500BD1B49 /* iSoccer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSoccer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0DA7F2A0500B500BD1B49 /* iSoccerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSoccerApp.swift; sourceTree = "<group>"; };
+		29C0DA812A0500B500BD1B49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29C0DA832A0500BA00BD1B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29C0DA862A0500BA00BD1B49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29C0DA8C2A0500BA00BD1B49 /* iSoccerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSoccerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0DA902A0500BA00BD1B49 /* iSoccerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSoccerTests.swift; sourceTree = "<group>"; };
+		29C0DA962A0500BA00BD1B49 /* iSoccerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSoccerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0DA9A2A0500BA00BD1B49 /* iSoccerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSoccerUITests.swift; sourceTree = "<group>"; };
+		29C0DA9C2A0500BA00BD1B49 /* iSoccerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSoccerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29C0DAA22A0500BA00BD1B49 /* iSoccer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iSoccer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0DAA72A0500BA00BD1B49 /* iSoccerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSoccerApp.swift; sourceTree = "<group>"; };
+		29C0DAA92A0500BA00BD1B49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29C0DAAB2A0500BE00BD1B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29C0DAAE2A0500BE00BD1B49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29C0DAB42A0500BE00BD1B49 /* iSoccer Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iSoccer Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0DAB82A0500BE00BD1B49 /* iSoccer_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSoccer_Watch_AppTests.swift; sourceTree = "<group>"; };
+		29C0DABE2A0500BE00BD1B49 /* iSoccer Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iSoccer Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0DAC22A0500BE00BD1B49 /* iSoccer_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSoccer_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		29C0DAC42A0500BE00BD1B49 /* iSoccer_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSoccer_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29C0DA792A0500B500BD1B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DA892A0500BA00BD1B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DA932A0500BA00BD1B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DA9F2A0500BA00BD1B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DAB12A0500BE00BD1B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DABB2A0500BE00BD1B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29C0DA732A0500B400BD1B49 = {
+			isa = PBXGroup;
+			children = (
+				29C0DA7E2A0500B500BD1B49 /* iSoccer */,
+				29C0DA8F2A0500BA00BD1B49 /* iSoccerTests */,
+				29C0DA992A0500BA00BD1B49 /* iSoccerUITests */,
+				29C0DAA62A0500BA00BD1B49 /* iSoccer Watch App */,
+				29C0DAB72A0500BE00BD1B49 /* iSoccer Watch AppTests */,
+				29C0DAC12A0500BE00BD1B49 /* iSoccer Watch AppUITests */,
+				29C0DA7D2A0500B500BD1B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29C0DA7D2A0500B500BD1B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29C0DA7C2A0500B500BD1B49 /* iSoccer.app */,
+				29C0DA8C2A0500BA00BD1B49 /* iSoccerTests.xctest */,
+				29C0DA962A0500BA00BD1B49 /* iSoccerUITests.xctest */,
+				29C0DAA22A0500BA00BD1B49 /* iSoccer Watch App.app */,
+				29C0DAB42A0500BE00BD1B49 /* iSoccer Watch AppTests.xctest */,
+				29C0DABE2A0500BE00BD1B49 /* iSoccer Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29C0DA7E2A0500B500BD1B49 /* iSoccer */ = {
+			isa = PBXGroup;
+			children = (
+				29C0DA7F2A0500B500BD1B49 /* iSoccerApp.swift */,
+				29C0DA812A0500B500BD1B49 /* ContentView.swift */,
+				29C0DA832A0500BA00BD1B49 /* Assets.xcassets */,
+				29C0DA852A0500BA00BD1B49 /* Preview Content */,
+			);
+			path = iSoccer;
+			sourceTree = "<group>";
+		};
+		29C0DA852A0500BA00BD1B49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29C0DA862A0500BA00BD1B49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29C0DA8F2A0500BA00BD1B49 /* iSoccerTests */ = {
+			isa = PBXGroup;
+			children = (
+				29C0DA902A0500BA00BD1B49 /* iSoccerTests.swift */,
+			);
+			path = iSoccerTests;
+			sourceTree = "<group>";
+		};
+		29C0DA992A0500BA00BD1B49 /* iSoccerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29C0DA9A2A0500BA00BD1B49 /* iSoccerUITests.swift */,
+				29C0DA9C2A0500BA00BD1B49 /* iSoccerUITestsLaunchTests.swift */,
+			);
+			path = iSoccerUITests;
+			sourceTree = "<group>";
+		};
+		29C0DAA62A0500BA00BD1B49 /* iSoccer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				29C0DAA72A0500BA00BD1B49 /* iSoccerApp.swift */,
+				29C0DAA92A0500BA00BD1B49 /* ContentView.swift */,
+				29C0DAAB2A0500BE00BD1B49 /* Assets.xcassets */,
+				29C0DAAD2A0500BE00BD1B49 /* Preview Content */,
+			);
+			path = "iSoccer Watch App";
+			sourceTree = "<group>";
+		};
+		29C0DAAD2A0500BE00BD1B49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29C0DAAE2A0500BE00BD1B49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29C0DAB72A0500BE00BD1B49 /* iSoccer Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				29C0DAB82A0500BE00BD1B49 /* iSoccer_Watch_AppTests.swift */,
+			);
+			path = "iSoccer Watch AppTests";
+			sourceTree = "<group>";
+		};
+		29C0DAC12A0500BE00BD1B49 /* iSoccer Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29C0DAC22A0500BE00BD1B49 /* iSoccer_Watch_AppUITests.swift */,
+				29C0DAC42A0500BE00BD1B49 /* iSoccer_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "iSoccer Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29C0DA7B2A0500B500BD1B49 /* iSoccer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C0DACC2A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccer" */;
+			buildPhases = (
+				29C0DA782A0500B500BD1B49 /* Sources */,
+				29C0DA792A0500B500BD1B49 /* Frameworks */,
+				29C0DA7A2A0500B500BD1B49 /* Resources */,
+				29C0DACB2A0500BE00BD1B49 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C0DAA52A0500BA00BD1B49 /* PBXTargetDependency */,
+			);
+			name = iSoccer;
+			productName = iSoccer;
+			productReference = 29C0DA7C2A0500B500BD1B49 /* iSoccer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29C0DA8B2A0500BA00BD1B49 /* iSoccerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C0DACF2A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccerTests" */;
+			buildPhases = (
+				29C0DA882A0500BA00BD1B49 /* Sources */,
+				29C0DA892A0500BA00BD1B49 /* Frameworks */,
+				29C0DA8A2A0500BA00BD1B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C0DA8E2A0500BA00BD1B49 /* PBXTargetDependency */,
+			);
+			name = iSoccerTests;
+			productName = iSoccerTests;
+			productReference = 29C0DA8C2A0500BA00BD1B49 /* iSoccerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29C0DA952A0500BA00BD1B49 /* iSoccerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C0DAD22A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccerUITests" */;
+			buildPhases = (
+				29C0DA922A0500BA00BD1B49 /* Sources */,
+				29C0DA932A0500BA00BD1B49 /* Frameworks */,
+				29C0DA942A0500BA00BD1B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C0DA982A0500BA00BD1B49 /* PBXTargetDependency */,
+			);
+			name = iSoccerUITests;
+			productName = iSoccerUITests;
+			productReference = 29C0DA962A0500BA00BD1B49 /* iSoccerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		29C0DAA12A0500BA00BD1B49 /* iSoccer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C0DAC82A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccer Watch App" */;
+			buildPhases = (
+				29C0DA9E2A0500BA00BD1B49 /* Sources */,
+				29C0DA9F2A0500BA00BD1B49 /* Frameworks */,
+				29C0DAA02A0500BA00BD1B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iSoccer Watch App";
+			productName = "iSoccer Watch App";
+			productReference = 29C0DAA22A0500BA00BD1B49 /* iSoccer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29C0DAB32A0500BE00BD1B49 /* iSoccer Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C0DAD52A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccer Watch AppTests" */;
+			buildPhases = (
+				29C0DAB02A0500BE00BD1B49 /* Sources */,
+				29C0DAB12A0500BE00BD1B49 /* Frameworks */,
+				29C0DAB22A0500BE00BD1B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C0DAB62A0500BE00BD1B49 /* PBXTargetDependency */,
+			);
+			name = "iSoccer Watch AppTests";
+			productName = "iSoccer Watch AppTests";
+			productReference = 29C0DAB42A0500BE00BD1B49 /* iSoccer Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29C0DABD2A0500BE00BD1B49 /* iSoccer Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C0DAD82A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccer Watch AppUITests" */;
+			buildPhases = (
+				29C0DABA2A0500BE00BD1B49 /* Sources */,
+				29C0DABB2A0500BE00BD1B49 /* Frameworks */,
+				29C0DABC2A0500BE00BD1B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C0DAC02A0500BE00BD1B49 /* PBXTargetDependency */,
+			);
+			name = "iSoccer Watch AppUITests";
+			productName = "iSoccer Watch AppUITests";
+			productReference = 29C0DABE2A0500BE00BD1B49 /* iSoccer Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29C0DA742A0500B400BD1B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					29C0DA7B2A0500B500BD1B49 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					29C0DA8B2A0500BA00BD1B49 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 29C0DA7B2A0500B500BD1B49;
+					};
+					29C0DA952A0500BA00BD1B49 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 29C0DA7B2A0500B500BD1B49;
+					};
+					29C0DAA12A0500BA00BD1B49 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					29C0DAB32A0500BE00BD1B49 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 29C0DAA12A0500BA00BD1B49;
+					};
+					29C0DABD2A0500BE00BD1B49 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 29C0DAA12A0500BA00BD1B49;
+					};
+				};
+			};
+			buildConfigurationList = 29C0DA772A0500B400BD1B49 /* Build configuration list for PBXProject "iSoccer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29C0DA732A0500B400BD1B49;
+			productRefGroup = 29C0DA7D2A0500B500BD1B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29C0DA7B2A0500B500BD1B49 /* iSoccer */,
+				29C0DA8B2A0500BA00BD1B49 /* iSoccerTests */,
+				29C0DA952A0500BA00BD1B49 /* iSoccerUITests */,
+				29C0DAA12A0500BA00BD1B49 /* iSoccer Watch App */,
+				29C0DAB32A0500BE00BD1B49 /* iSoccer Watch AppTests */,
+				29C0DABD2A0500BE00BD1B49 /* iSoccer Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29C0DA7A2A0500B500BD1B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0DA872A0500BA00BD1B49 /* Preview Assets.xcassets in Resources */,
+				29C0DA842A0500BA00BD1B49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DA8A2A0500BA00BD1B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DA942A0500BA00BD1B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DAA02A0500BA00BD1B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0DAAF2A0500BE00BD1B49 /* Preview Assets.xcassets in Resources */,
+				29C0DAAC2A0500BE00BD1B49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DAB22A0500BE00BD1B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DABC2A0500BE00BD1B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29C0DA782A0500B500BD1B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0DA822A0500B500BD1B49 /* ContentView.swift in Sources */,
+				29C0DA802A0500B500BD1B49 /* iSoccerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DA882A0500BA00BD1B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0DA912A0500BA00BD1B49 /* iSoccerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DA922A0500BA00BD1B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0DA9B2A0500BA00BD1B49 /* iSoccerUITests.swift in Sources */,
+				29C0DA9D2A0500BA00BD1B49 /* iSoccerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DA9E2A0500BA00BD1B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0DAAA2A0500BA00BD1B49 /* ContentView.swift in Sources */,
+				29C0DAA82A0500BA00BD1B49 /* iSoccerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DAB02A0500BE00BD1B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0DAB92A0500BE00BD1B49 /* iSoccer_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C0DABA2A0500BE00BD1B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C0DAC32A0500BE00BD1B49 /* iSoccer_Watch_AppUITests.swift in Sources */,
+				29C0DAC52A0500BE00BD1B49 /* iSoccer_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29C0DA8E2A0500BA00BD1B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29C0DA7B2A0500B500BD1B49 /* iSoccer */;
+			targetProxy = 29C0DA8D2A0500BA00BD1B49 /* PBXContainerItemProxy */;
+		};
+		29C0DA982A0500BA00BD1B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29C0DA7B2A0500B500BD1B49 /* iSoccer */;
+			targetProxy = 29C0DA972A0500BA00BD1B49 /* PBXContainerItemProxy */;
+		};
+		29C0DAA52A0500BA00BD1B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29C0DAA12A0500BA00BD1B49 /* iSoccer Watch App */;
+			targetProxy = 29C0DAA42A0500BA00BD1B49 /* PBXContainerItemProxy */;
+		};
+		29C0DAB62A0500BE00BD1B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29C0DAA12A0500BA00BD1B49 /* iSoccer Watch App */;
+			targetProxy = 29C0DAB52A0500BE00BD1B49 /* PBXContainerItemProxy */;
+		};
+		29C0DAC02A0500BE00BD1B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29C0DAA12A0500BA00BD1B49 /* iSoccer Watch App */;
+			targetProxy = 29C0DABF2A0500BE00BD1B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29C0DAC62A0500BE00BD1B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29C0DAC72A0500BE00BD1B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		29C0DAC92A0500BE00BD1B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iSoccer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iSoccer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.daniel.mark.kiss.iSoccer;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.mark.kiss.iSoccer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		29C0DACA2A0500BE00BD1B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iSoccer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iSoccer;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.daniel.mark.kiss.iSoccer;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.mark.kiss.iSoccer.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		29C0DACD2A0500BE00BD1B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iSoccer/Preview Content\"";
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iSoccer;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.mark.kiss.iSoccer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29C0DACE2A0500BE00BD1B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iSoccer/Preview Content\"";
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iSoccer;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.mark.kiss.iSoccer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29C0DAD02A0500BE00BD1B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.mark.kiss.iSoccerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSoccer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iSoccer";
+			};
+			name = Debug;
+		};
+		29C0DAD12A0500BE00BD1B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.mark.kiss.iSoccerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSoccer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iSoccer";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29C0DAD32A0500BE00BD1B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.mark.kiss.iSoccerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iSoccer;
+			};
+			name = Debug;
+		};
+		29C0DAD42A0500BE00BD1B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.mark.kiss.iSoccerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iSoccer;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29C0DAD62A0500BE00BD1B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.mark.kiss.iSoccer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSoccer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iSoccer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		29C0DAD72A0500BE00BD1B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.mark.kiss.iSoccer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSoccer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iSoccer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		29C0DAD92A0500BE00BD1B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.mark.kiss.iSoccer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iSoccer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		29C0DADA2A0500BE00BD1B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BG8NEDT523;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.daniel.mark.kiss.iSoccer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iSoccer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29C0DA772A0500B400BD1B49 /* Build configuration list for PBXProject "iSoccer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0DAC62A0500BE00BD1B49 /* Debug */,
+				29C0DAC72A0500BE00BD1B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C0DAC82A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0DAC92A0500BE00BD1B49 /* Debug */,
+				29C0DACA2A0500BE00BD1B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C0DACC2A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0DACD2A0500BE00BD1B49 /* Debug */,
+				29C0DACE2A0500BE00BD1B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C0DACF2A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0DAD02A0500BE00BD1B49 /* Debug */,
+				29C0DAD12A0500BE00BD1B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C0DAD22A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0DAD32A0500BE00BD1B49 /* Debug */,
+				29C0DAD42A0500BE00BD1B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C0DAD52A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccer Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0DAD62A0500BE00BD1B49 /* Debug */,
+				29C0DAD72A0500BE00BD1B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C0DAD82A0500BE00BD1B49 /* Build configuration list for PBXNativeTarget "iSoccer Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0DAD92A0500BE00BD1B49 /* Debug */,
+				29C0DADA2A0500BE00BD1B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29C0DA742A0500B400BD1B49 /* Project object */;
+}
