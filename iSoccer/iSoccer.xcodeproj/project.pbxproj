@@ -22,6 +22,8 @@
 		29C0DAB92A0500BE00BD1B49 /* iSoccer_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DAB82A0500BE00BD1B49 /* iSoccer_Watch_AppTests.swift */; };
 		29C0DAC32A0500BE00BD1B49 /* iSoccer_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DAC22A0500BE00BD1B49 /* iSoccer_Watch_AppUITests.swift */; };
 		29C0DAC52A0500BE00BD1B49 /* iSoccer_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0DAC42A0500BE00BD1B49 /* iSoccer_Watch_AppUITestsLaunchTests.swift */; };
+		29C0DADD2A05018800BD1B49 /* SpeedManagerModule in Frameworks */ = {isa = PBXBuildFile; productRef = 29C0DADC2A05018800BD1B49 /* SpeedManagerModule */; };
+		29C0DAE02A05021400BD1B49 /* SpeedManagerModule in Frameworks */ = {isa = PBXBuildFile; productRef = 29C0DADF2A05021400BD1B49 /* SpeedManagerModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C0DADD2A05018800BD1B49 /* SpeedManagerModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C0DAE02A05021400BD1B49 /* SpeedManagerModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +159,7 @@
 				29C0DAB72A0500BE00BD1B49 /* iSoccer Watch AppTests */,
 				29C0DAC12A0500BE00BD1B49 /* iSoccer Watch AppUITests */,
 				29C0DA7D2A0500B500BD1B49 /* Products */,
+				29C0DADE2A05021400BD1B49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,6 +248,13 @@
 			path = "iSoccer Watch AppUITests";
 			sourceTree = "<group>";
 		};
+		29C0DADE2A05021400BD1B49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,6 +273,9 @@
 				29C0DAA52A0500BA00BD1B49 /* PBXTargetDependency */,
 			);
 			name = iSoccer;
+			packageProductDependencies = (
+				29C0DADC2A05018800BD1B49 /* SpeedManagerModule */,
+			);
 			productName = iSoccer;
 			productReference = 29C0DA7C2A0500B500BD1B49 /* iSoccer.app */;
 			productType = "com.apple.product-type.application";
@@ -314,6 +329,9 @@
 			dependencies = (
 			);
 			name = "iSoccer Watch App";
+			packageProductDependencies = (
+				29C0DADF2A05021400BD1B49 /* SpeedManagerModule */,
+			);
 			productName = "iSoccer Watch App";
 			productReference = 29C0DAA22A0500BA00BD1B49 /* iSoccer Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -397,6 +415,9 @@
 				Base,
 			);
 			mainGroup = 29C0DA732A0500B400BD1B49;
+			packageReferences = (
+				29C0DADB2A05018800BD1B49 /* XCRemoteSwiftPackageReference "SpeedManager" */,
+			);
 			productRefGroup = 29C0DA7D2A0500B500BD1B49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1016,6 +1037,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		29C0DADB2A05018800BD1B49 /* XCRemoteSwiftPackageReference "SpeedManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ezefranca/SpeedManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		29C0DADC2A05018800BD1B49 /* SpeedManagerModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29C0DADB2A05018800BD1B49 /* XCRemoteSwiftPackageReference "SpeedManager" */;
+			productName = SpeedManagerModule;
+		};
+		29C0DADF2A05021400BD1B49 /* SpeedManagerModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 29C0DADB2A05018800BD1B49 /* XCRemoteSwiftPackageReference "SpeedManager" */;
+			productName = SpeedManagerModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 29C0DA742A0500B400BD1B49 /* Project object */;
 }

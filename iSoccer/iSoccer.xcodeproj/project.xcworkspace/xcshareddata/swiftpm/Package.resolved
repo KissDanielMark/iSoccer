@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "speedmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ezefranca/SpeedManager.git",
+      "state" : {
+        "revision" : "739d055fd790caf5942ebe50436d8dd3c8c1506f",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 2
+}

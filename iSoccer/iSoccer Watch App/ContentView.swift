@@ -6,17 +6,23 @@
 //
 
 import SwiftUI
+import SpeedManagerModule
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+    @StateObject var speedManager = SpeedManager(.kilometersPerHour)
+       
+       var body: some View {
+           VStack {
+               switch speedManager.authorizationStatus {
+               case .authorized:
+                   Text("Your current speed is:")
+                   Text("\(speedManager.speed)")
+                   Text("km/h")
+               default:
+                   Spacer()
+               }
+           }
+       }
 }
 
 struct ContentView_Previews: PreviewProvider {
